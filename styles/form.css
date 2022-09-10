@@ -1,0 +1,41 @@
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	gap: 10px;
+	padding: 100px;
+	box-sizing: border-box;
+	height: 90vh;
+	background-color: dodgerblue;
+}
+#login,
+#create,
+input,
+#Submit {
+	box-sizing: border-box;
+	font-size: larger;
+	padding: 10px 100px;
+	font-size: larger;
+	text-align: center;
+	border-radius: 10px;
+	border: none;
+}
+
+#buy {
+	box-sizing: border-box;
+	font-size: larger;
+	padding: 10px 40px;
+	font-size: larger;
+	text-align: center;
+	border-radius: 10px;
+	border: none;
+}
+#login,
+#create,
+#Submit,
+#buy {
+	background-color: purple;
+	color: white;
+	border: none;
+}

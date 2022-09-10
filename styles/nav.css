@@ -1,0 +1,28 @@
+a {
+	text-decoration: none;
+}
+
+.main {
+	font-size: 2em;
+	color: purple;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem 2rem;
+	box-sizing: border-box;
+	align-items: baseline;
+	color: var(--text-color);
+}
+
+.nav-items {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	gap: 3rem;
+}
+
+.nav-item a {
+	color: var(--text-color);
+}

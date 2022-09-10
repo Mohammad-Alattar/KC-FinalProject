@@ -1,0 +1,53 @@
+section {
+	height: 90vh;
+	width: 100vw;
+}
+
+.start {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+}
+.start h1,
+p,
+a {
+	font-family: "Titan One", cursive;
+	font-size: 2rem;
+	text-indent: 10px;
+}
+
+.services {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-evenly;
+	gap: 3rem;
+	align-items: baseline;
+	column-fill: balance;
+}
+
+.box {
+	text-align: center;
+	flex-flow: column;
+	background-color: dodgerblue;
+	border-radius: 10px;
+	width: 200px;
+	margin: auto;
+	gap: 10px;
+}
+.box img {
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.box .describe {
+	font-size: large;
+	text-indent: 10px;
+	word-wrap: break-word;
+}
+
+#textarea {
+	text-align: center;
+	margin-top: 10px;
+	padding: 0 100px;
+}
